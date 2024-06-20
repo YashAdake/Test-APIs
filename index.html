@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="//unpkg.com/swagger-ui-dist@3/swagger-ui.css">
+
+    <title>ArthaVedh APIs</title>
+</head>
+<body>
+    <div id="av_apis-oas_ui"></div>
+
+    <script src="//unpkg.com/swagger-ui-dist@3/swagger-ui-bundle.js"></script>
+    <script>
+        window.onload = function(){
+            constui = SwaggerUIBundle({
+                url: "Test_APIs.yaml",
+                dom_id: "#av_apis-oas_ui",
+                deepLinking: true,
+            })
+        }
+    </script>
+</body>
+</html>
