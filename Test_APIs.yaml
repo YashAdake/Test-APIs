@@ -19,7 +19,7 @@ paths:
             schema:
               $ref: '#/components/schemas/payload'
             example:
-              account_id: SBI76785678
+              account_id: 36725987263
               candle_length: 1D
               time_frame: 1Y
                 
