@@ -36,6 +36,7 @@ paths:
                 currency: INR
                 candle_length: 1D
                 time_frame: 1Y
+                record_count: 3
                 data: [{high: 140, low: 90, open: 100, close: 90},
                         {high: 2000, low: 900, open: 500, close: 1500},
                         {high: 7800, low: 3400, open: 5000, close: 5600}
@@ -115,6 +116,8 @@ components:
         time_frame:
           type: string
           format: date-time
+        record_count:
+          type: integer
         data:
           type: array
           items:
@@ -140,3 +143,5 @@ components:
         message:
           type: string
             
+        
+        
